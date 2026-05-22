@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.main.routes.users_routes import users_router
 
-
+#initial server
 app = FastAPI()
 
 app.add_middleware(
